@@ -1,0 +1,16 @@
+Boss is a service provided by Yahoo that provides an API for building your own Search service for use in a website.
+
+more information on: http://developer.yahoo.com/search/boss/
+
+This is a C# implementation of the search. 
+
+It pulls the configuration of the site from the Web.config file.
+
+The following keys need to be added to the configuration.appSettings section: 
+
+<add key="BossApiKey" value="YourAPIKeyFromYahoo" />
+<add key="BossSiteSearch" value="www.mysite.com" /><!--do not include http:// -->
+<!-- optional, uncomment if a proxy is needed  -->
+<!-- <add key="BossWebProxy" value="http://192.168.1.8:8080"/> -->
+
+Have fun.
